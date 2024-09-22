@@ -78,5 +78,6 @@ CL-USER>
 
 (setq list2 '(4 e f) list1 (list 'd list2 (list (list 5) (car (last list2)))))
 
+;; Результат
 (D (4 E F) ((5) F))
 ```
