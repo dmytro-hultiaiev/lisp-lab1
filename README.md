@@ -29,8 +29,8 @@ CL-USER> (nth 2 lab-list)
 1
 
 ;; 5) Отримання останнього елементу списку.
-CL-USER> (last lab-list)
-(NIL)
+CL-USER> (car (last lab-list))
+NIL
 
 ;; 6.1) Використання предикати atom
 CL-USER> (atom (nth 1 lab-list))
