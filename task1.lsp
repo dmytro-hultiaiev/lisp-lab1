@@ -5,7 +5,7 @@
 (car lab-list)
 (cdr lab-list)
 (nth 2 lab-list)
-(last lab-list)
+(car (last lab-list))
 
 (atom (nth 1 lab-list))
 (atom (nth 4 lab-list))
